@@ -1,1 +1,6 @@
-<app-carousel [loop]="{active: true, time: 2000}" [useConfig]="true"></app-carousel>
+<button [routerLink]="['']" class="m-2 hover:bg-blue-400 border-solid border-2 rounded-md border-current p-2">BASE</button>
+<button [routerLink]="['home']" class="m-2 hover:bg-blue-400 border-solid border-2 rounded-md border-current p-2">HOME</button>
+<button [routerLink]="['about']" class="m-2 hover:bg-blue-400 border-solid border-2 rounded-md border-current p-2">ABOUT</button>
+<div class="w-full p-2">
+    <router-outlet></router-outlet>
+</div>
